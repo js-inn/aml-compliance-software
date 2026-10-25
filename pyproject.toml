@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aml-compliance-software"
+version = "1.0.0"
+description = "A lightweight, modular, and API-ready Anti-Money Laundering (AML) compliance engine."
+readme = "README.md"
+authors = [
+    { name = "JS Innovation", email = "support@js-innovation.local" }
+]
+license = { text = "Proprietary" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business :: Financial",
+]
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/js-inn/aml-compliance-software"
+
